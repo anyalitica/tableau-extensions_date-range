@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.tableau.extensions.myawesomeextension" extension-version="0.7.0">
+    <default-locale>Extension to update dates</default-locale>
+    <name resource-id="name"/>
+    <description>Extension to update dates</description>
+    <author name="Anya Prosvetova" email="email@email.com" organization="The Information Lab UK" website="https://www.prosvetova.com"/>
+    <min-api-version>0.9</min-api-version>
+    <source-location>
+      <url>https://spiritual-fair-wrench.glitch.me/</url>
+    </source-location>
+    <icon></icon>
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">This extension updates a date filter to a specific range</text>
+    </resource>
+  </resources>
+</manifest>
